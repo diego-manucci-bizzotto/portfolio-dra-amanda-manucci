@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amanda Manucci · Fisioterapia Dermatofuncional</title>
+<meta name="description" content="Fisioterapia dermatofuncional em Ribeirão Preto e Botucatu: estética íntima, tratamentos com aparelhos, pré e pós-operatório e injetáveis. Cursos e mentorias para profissionais.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #FAEEDF; -webkit-font-smoothing: antialiased; font-family:'Montserrat',sans-serif; color:#402E23; overflow-x:hidden; }
+  ::selection { background: #7B3951; color: #FAEEDF; }
+
+  .nav-link:hover { color:#7B3951; }
+  .btn-primary:hover { background:#672F44; }
+  .btn-outline-dark:hover { border-color:#7B3951; color:#7B3951; }
+  .card-proc:hover { border-color:rgba(123,57,81,0.5); }
+  .btn-outline-light:hover { background:rgba(248,233,218,0.1); }
+  .footer-link:hover { color:#D9A9B9; }
+  .fab-wa:hover { background:#1EBE5A; }
+
+  .nav-toggle {
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    gap:5px;
+    width:38px;
+    height:38px;
+    padding:0;
+    background:none;
+    border:none;
+    cursor:pointer;
+    flex-shrink:0;
+  }
+  .nav-toggle span {
+    display:block;
+    width:24px;
+    height:2px;
+    background:#402E23;
+    border-radius:2px;
+    transition:transform .2s ease, opacity .2s ease;
+  }
+  .nav-toggle[aria-expanded="true"] span:nth-child(1) { transform:translateY(7px) rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity:0; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(3) { transform:translateY(-7px) rotate(-45deg); }
+
+  @media (max-width: 860px) {
+    .nav-toggle { display:flex; }
+    .nav-links {
+      display:none !important;
+      position:absolute;
+      top:100%;
+      left:0;
+      right:0;
+      flex-direction:column !important;
+      align-items:stretch !important;
+      gap:4px !important;
+      background:#FAEEDF;
+      border-bottom:1px solid rgba(160,118,83,0.25);
+      padding:6px 40px 26px;
+      box-shadow:0 16px 24px rgba(64,46,35,0.10);
+    }
+    .nav-links.open { display:flex !important; }
+    .nav-links a { padding:14px 0 !important; width:100%; }
+    .nav-links .btn-primary { margin-top:10px; text-align:center; padding:14px 24px !important; }
+  }
+</style>
+</head>
+<body>
+
+<div>
+
+  <!-- ===== NAV ===== -->
+  <nav style="position:fixed;top:0;left:0;right:0;z-index:60;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 40px;background:rgba(250,238,223,0.88);backdrop-filter:blur(14px);border-bottom:1px solid rgba(160,118,83,0.25)">
+    <a href="#topo" style="text-decoration:none;color:#402E23;display:flex;flex-direction:column;line-height:1">
+      <span style="font-family:'Great Vibes',cursive;font-size:27px">Amanda Manucci</span>
+      <span style="font-size:8.5px;letter-spacing:3.2px;color:#A07653;font-weight:500;margin-top:3px">FISIOTERAPIA ESPECIALIZADA</span>
+    </a>
+    <button type="button" class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="nav-links" id="nav-links" style="display:flex;align-items:center;gap:30px;flex-wrap:wrap">
+      <a href="#sobre" class="nav-link" style="text-decoration:none;color:#55402F;font-size:11.5px;letter-spacing:1.8px;font-weight:500">SOBRE MIM</a>
+      <a href="#procedimentos" class="nav-link" style="text-decoration:none;color:#55402F;font-size:11.5px;letter-spacing:1.8px;font-weight:500">PROCEDIMENTOS</a>
+      <a href="#cursos" class="nav-link" style="text-decoration:none;color:#55402F;font-size:11.5px;letter-spacing:1.8px;font-weight:500">CURSOS &amp; MENTORIAS</a>
+      <a href="#contato" class="nav-link" style="text-decoration:none;color:#55402F;font-size:11.5px;letter-spacing:1.8px;font-weight:500">CONTATO</a>
+      <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" class="btn-primary" style="text-decoration:none;background:#7B3951;color:#FAEEDF;font-size:11.5px;letter-spacing:1.6px;font-weight:600;padding:11px 24px;border-radius:999px">AGENDAR AVALIAÇÃO</a>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <header id="topo" style="max-width:1180px;margin:0 auto;padding:170px 40px 90px;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:64px;align-items:center">
+    <div>
+      <div style="font-size:12px;letter-spacing:4px;color:#A07653;font-weight:500;margin-bottom:18px">FISIOTERAPIA DERMATOFUNCIONAL</div>
+      <h1 style="font-family:'Great Vibes',cursive;font-weight:400;font-size:clamp(62px,8.5vw,100px);line-height:1;margin:0 0 10px">Amanda Manucci</h1>
+      <p style="font-family:'Cormorant Garamond',serif;font-size:clamp(26px,3vw,32px);font-weight:500;line-height:1.25;margin:0 0 18px">Estética feminina com técnica, <em style="color:#7B3951">ciência</em> e acolhimento.</p>
+      <p style="font-size:15.5px;line-height:1.8;color:#6E5849;max-width:480px;margin:0 0 34px">Estética íntima, tratamentos com aparelhos, pré e pós-operatório de cirurgias plásticas e injetáveis — além de cursos e mentorias para profissionais. Em Ribeirão Preto e Botucatu.</p>
+      <div style="display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin-bottom:36px">
+        <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" class="btn-primary" style="text-decoration:none;background:#7B3951;color:#FAEEDF;font-size:12px;letter-spacing:1.8px;font-weight:600;padding:16px 32px;border-radius:999px">AGENDAR AVALIAÇÃO</a>
+        <a href="#cursos" class="btn-outline-dark" style="text-decoration:none;color:#402E23;font-size:12px;letter-spacing:1.8px;font-weight:600;padding:16px 28px;border-radius:999px;border:1px solid rgba(64,46,35,0.35)">CONHECER OS CURSOS</a>
+      </div>
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap;font-size:11px;letter-spacing:2.4px;color:#A07653;font-weight:500">
+        <span>CREFITO 174489</span>
+        <span style="width:4px;height:4px;border-radius:50%;background:#C9A78C"></span>
+        <span>RIBEIRÃO PRETO</span>
+        <span style="width:4px;height:4px;border-radius:50%;background:#C9A78C"></span>
+        <span>BOTUCATU</span>
+      </div>
+    </div>
+    <div style="display:flex;justify-content:center">
+      <div style="position:relative;width:min(400px,100%)">
+        <div style="position:absolute;top:-18px;right:-18px;width:100%;height:100%;border:1.5px solid rgba(123,57,81,0.55);border-radius:999px 999px 22px 22px"></div>
+        <img src="assets/amanda-portrait.png" alt="Amanda Manucci" style="position:relative;display:block;width:100%;height:520px;object-fit:cover;object-position:50% 20%;border-radius:999px 999px 22px 22px">
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== SOBRE ===== -->
+  <section id="sobre" style="scroll-margin-top:84px;background:#FFF8F0;border-top:1px solid rgba(160,118,83,0.18);border-bottom:1px solid rgba(160,118,83,0.18)">
+    <div style="max-width:1180px;margin:0 auto;padding:110px 40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:70px;align-items:center">
+      <div style="display:flex;justify-content:center">
+        <div style="width:min(440px,100%);height:500px;border-radius:22px;border:1.5px dashed rgba(160,118,83,0.5);background:repeating-linear-gradient(45deg,#FFF3E6 0px,#FFF3E6 14px,#FAEADB 14px,#FAEADB 28px);display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;box-sizing:border-box"><span style="font-family:monospace;font-size:12px;color:#A07653;letter-spacing:1px">[ foto no consultório ]</span></div>
+      </div>
+      <div>
+        <div style="font-size:12px;letter-spacing:4px;color:#A07653;font-weight:500;margin-bottom:16px">SOBRE MIM</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(38px,4.5vw,52px);line-height:1.1;margin:0 0 24px">Prazer, <em style="color:#7B3951">Dra. Amanda!</em></h2>
+        <p style="font-size:15px;line-height:1.9;color:#6E5849;margin:0 0 18px">Sou a Dra. Amanda Manucci Azevedo, fisioterapeuta especialista em Fisioterapia Dermatofuncional, com atuação focada em estética íntima, tratamentos com aparelhos, pré e pós-operatório de cirurgias plásticas e injetáveis.</p>
+        <p style="font-size:15px;line-height:1.9;color:#6E5849;margin:0 0 28px">Meu trabalho une o conhecimento profundo do corpo à sensibilidade de entender o que cada mulher busca — autoestima, bem-estar e resultados que se sustentam. Atendo em Ribeirão Preto e Botucatu, e também formo profissionais por meio de cursos e mentorias.</p>
+        <div style="border-left:2px solid #7B3951;padding:6px 0 6px 22px;margin:0 0 32px">
+          <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:23px;line-height:1.4;color:#7B3951;margin:0">"Cada corpo é único — cada protocolo também deve ser."</p>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <span style="font-size:11px;letter-spacing:1.6px;font-weight:500;color:#55402F;border:1px solid rgba(160,118,83,0.4);border-radius:999px;padding:10px 18px">ATENDIMENTO INDIVIDUALIZADO</span>
+          <span style="font-size:11px;letter-spacing:1.6px;font-weight:500;color:#55402F;border:1px solid rgba(160,118,83,0.4);border-radius:999px;padding:10px 18px">FISIOTERAPIA DERMATOFUNCIONAL</span>
+          <span style="font-size:11px;letter-spacing:1.6px;font-weight:500;color:#55402F;border:1px solid rgba(160,118,83,0.4);border-radius:999px;padding:10px 18px">CREFITO 174489</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROCEDIMENTOS ===== -->
+  <section id="procedimentos" style="scroll-margin-top:84px;max-width:1180px;margin:0 auto;padding:110px 40px">
+    <div style="text-align:center;max-width:640px;margin:0 auto 60px">
+      <div style="font-size:12px;letter-spacing:4px;color:#A07653;font-weight:500;margin-bottom:16px">SERVIÇOS</div>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(38px,4.5vw,52px);line-height:1.1;margin:0 0 18px">Procedimentos</h2>
+      <p style="font-size:15px;line-height:1.8;color:#6E5849;margin:0">Protocolos pensados para o corpo feminino, sempre a partir de uma avaliação individual.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:26px">
+      <div class="card-proc" style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:18px;padding:32px">
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:#7B3951;margin-bottom:14px">01</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 12px">Estética íntima</h3>
+        <p style="font-size:14px;line-height:1.75;color:#6E5849;margin:0">Tratamentos especializados para a saúde e a estética íntima feminina, com técnica, ética e privacidade.</p>
+      </div>
+      <div class="card-proc" style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:18px;padding:32px">
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:#7B3951;margin-bottom:14px">02</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 12px">Tratamentos com aparelhos</h3>
+        <p style="font-size:14px;line-height:1.75;color:#6E5849;margin:0">Tecnologias aplicadas à estética facial e corporal, em protocolos seguros e personalizados.</p>
+      </div>
+      <div class="card-proc" style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:18px;padding:32px">
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:#7B3951;margin-bottom:14px">03</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 12px">Pré e pós-operatório</h3>
+        <p style="font-size:14px;line-height:1.75;color:#6E5849;margin:0">Preparo e recuperação de cirurgias plásticas, para resultados melhores com mais conforto e segurança.</p>
+      </div>
+      <div class="card-proc" style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:18px;padding:32px">
+        <div style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:20px;color:#7B3951;margin-bottom:14px">04</div>
+        <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:26px;margin:0 0 12px">Injetáveis</h3>
+        <p style="font-size:14px;line-height:1.75;color:#6E5849;margin:0">Procedimentos injetáveis com avaliação criteriosa, precisão e segurança.</p>
+      </div>
+    </div>
+    <p style="text-align:center;font-size:14px;color:#6E5849;margin:48px 0 0">Não encontrou o que procura? <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" style="color:#7B3951;font-weight:600;text-decoration:underline;text-underline-offset:3px">Fale comigo no WhatsApp</a>.</p>
+  </section>
+
+  <!-- ===== CURSOS & MENTORIAS ===== -->
+  <section id="cursos" style="scroll-margin-top:84px;background:#5C2839">
+    <div style="max-width:1180px;margin:0 auto;padding:110px 40px">
+      <div style="text-align:center;max-width:680px;margin:0 auto 60px">
+        <div style="font-size:12px;letter-spacing:4px;color:#D9A9B9;font-weight:500;margin-bottom:16px">PARA PROFISSIONAIS</div>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(38px,4.5vw,54px);line-height:1.1;color:#F8E9DA;margin:0 0 18px">Cursos <em style="color:#D9A9B9">&amp;</em> Mentorias</h2>
+        <p style="font-size:15px;line-height:1.8;color:rgba(248,233,218,0.75);margin:0">Formação prática e acompanhamento próximo para profissionais da estética que querem elevar técnica, segurança e resultados.</p>
+      </div>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:28px;max-width:960px;margin:0 auto">
+        <div style="border:1px solid rgba(248,233,218,0.28);border-radius:20px;padding:40px;display:flex;flex-direction:column;gap:18px">
+          <div style="font-size:11px;letter-spacing:2.6px;color:#D9A9B9;font-weight:600">CURSO PRESENCIAL</div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:30px;line-height:1.2;color:#F8E9DA;margin:0">Curso hands-on de estética avançada</h3>
+          <div style="display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.6;color:rgba(248,233,218,0.8)">
+            <div style="display:flex;gap:10px"><span style="color:#D9A9B9">—</span><span>Prática supervisionada em modelos reais</span></div>
+            <div style="display:flex;gap:10px"><span style="color:#D9A9B9">—</span><span>Turmas reduzidas, atenção individual</span></div>
+            <div style="display:flex;gap:10px"><span style="color:#D9A9B9">—</span><span>Certificado incluso</span></div>
+          </div>
+          <a href="https://wa.me/5516999999999?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20cursos%20e%20mentorias." target="_blank" class="btn-outline-light" style="text-decoration:none;align-self:flex-start;margin-top:8px;color:#F8E9DA;border:1px solid rgba(248,233,218,0.5);font-size:12px;letter-spacing:1.8px;font-weight:600;padding:14px 28px;border-radius:999px">QUERO PARTICIPAR</a>
+        </div>
+        <div style="background:#F8E9DA;border-radius:20px;padding:40px;display:flex;flex-direction:column;gap:18px">
+          <div style="font-size:11px;letter-spacing:2.6px;color:#7B3951;font-weight:600">MENTORIA INDIVIDUAL</div>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:30px;line-height:1.2;color:#402E23;margin:0">Mentoria para acelerar sua carreira</h3>
+          <div style="display:flex;flex-direction:column;gap:10px;font-size:14px;line-height:1.6;color:#6E5849">
+            <div style="display:flex;gap:10px"><span style="color:#7B3951">—</span><span>Encontros individuais, online ou presenciais</span></div>
+            <div style="display:flex;gap:10px"><span style="color:#7B3951">—</span><span>Técnica, posicionamento e gestão</span></div>
+            <div style="display:flex;gap:10px"><span style="color:#7B3951">—</span><span>Plano de ação personalizado</span></div>
+          </div>
+          <a href="https://wa.me/5516999999999?text=Ol%C3%A1!%20Quero%20saber%20mais%20sobre%20os%20cursos%20e%20mentorias." target="_blank" class="btn-primary" style="text-decoration:none;align-self:flex-start;margin-top:8px;background:#7B3951;color:#F8E9DA;font-size:12px;letter-spacing:1.8px;font-weight:600;padding:14px 28px;border-radius:999px">QUERO PARTICIPAR</a>
+        </div>
+      </div>
+      <p style="text-align:center;font-size:13.5px;color:rgba(248,233,218,0.65);margin:44px 0 0">Datas e novas turmas são divulgadas no Instagram <a href="https://instagram.com/amanda.manucci" target="_blank" style="color:#D9A9B9;font-weight:600;text-decoration:underline;text-underline-offset:3px">@amanda.manucci</a></p>
+    </div>
+  </section>
+
+  <!-- ===== CONTATO ===== -->
+  <section id="contato" style="scroll-margin-top:84px;max-width:1180px;margin:0 auto;padding:110px 40px">
+    <div style="text-align:center;max-width:640px;margin:0 auto 60px">
+      <div style="font-size:12px;letter-spacing:4px;color:#A07653;font-weight:500;margin-bottom:16px">CONTATO</div>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:500;font-size:clamp(38px,4.5vw,52px);line-height:1.1;margin:0 0 18px">Onde me encontrar</h2>
+      <p style="font-size:15px;line-height:1.8;color:#6E5849;margin:0">Atendimento em duas cidades. Escolha a unidade mais próxima de você.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:30px;max-width:1020px;margin:0 auto">
+
+      <div style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:20px;overflow:hidden">
+        <iframe title="Mapa — Ribeirão Preto" src="https://www.google.com/maps?q=Ribeir%C3%A3o%20Preto%2C%20SP&output=embed" style="display:block;width:100%;height:230px;border:0" loading="lazy"></iframe>
+        <div style="padding:30px 32px 34px">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;margin:0 0 14px">Ribeirão Preto <span style="font-size:18px;font-weight:500;color:#A07653">— SP</span></h3>
+          <p style="font-size:14px;line-height:1.8;color:#6E5849;margin:0 0 6px">Av. Exemplo, 000 — Sala 00, Jardim América</p>
+          <p style="font-size:14px;line-height:1.8;color:#6E5849;margin:0 0 22px">(16) 99999-9999</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+            <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" class="btn-primary" style="text-decoration:none;background:#7B3951;color:#FAEEDF;font-size:11px;letter-spacing:1.6px;font-weight:600;padding:12px 22px;border-radius:999px">WHATSAPP</a>
+            <a href="https://maps.google.com/?q=Ribeir%C3%A3o+Preto,+SP" target="_blank" style="text-decoration:none;color:#7B3951;font-size:11px;letter-spacing:1.6px;font-weight:600;padding:12px 4px">VER NO GOOGLE MAPS →</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="background:#FFF8F0;border:1px solid rgba(160,118,83,0.28);border-radius:20px;overflow:hidden">
+        <iframe title="Mapa — Botucatu" src="https://www.google.com/maps?q=Botucatu%2C%20SP&output=embed" style="display:block;width:100%;height:230px;border:0" loading="lazy"></iframe>
+        <div style="padding:30px 32px 34px">
+          <h3 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:30px;margin:0 0 14px">Botucatu <span style="font-size:18px;font-weight:500;color:#A07653">— SP</span></h3>
+          <p style="font-size:14px;line-height:1.8;color:#6E5849;margin:0 0 6px">Rua Exemplo, 000 — Sala 00, Centro</p>
+          <p style="font-size:14px;line-height:1.8;color:#6E5849;margin:0 0 22px">(14) 99999-9999</p>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+            <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" class="btn-primary" style="text-decoration:none;background:#7B3951;color:#FAEEDF;font-size:11px;letter-spacing:1.6px;font-weight:600;padding:12px 22px;border-radius:999px">WHATSAPP</a>
+            <a href="https://maps.google.com/?q=Botucatu,+SP" target="_blank" style="text-decoration:none;color:#7B3951;font-size:11px;letter-spacing:1.6px;font-weight:600;padding:12px 4px">VER NO GOOGLE MAPS →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer style="background:#38261C;color:#F1E2D2">
+    <div style="max-width:1180px;margin:0 auto;padding:64px 40px 40px;text-align:center">
+      <div style="font-family:'Great Vibes',cursive;font-size:38px;line-height:1">Amanda Manucci</div>
+      <div style="font-size:10px;letter-spacing:3px;color:rgba(241,226,210,0.6);font-weight:500;margin:12px 0 30px">FISIOTERAPIA ESPECIALIZADA · CREFITO 174489</div>
+      <div style="display:flex;justify-content:center;gap:28px;flex-wrap:wrap;margin-bottom:34px">
+        <a href="#sobre" class="footer-link" style="text-decoration:none;color:#F1E2D2;font-size:11px;letter-spacing:1.8px;font-weight:500">SOBRE MIM</a>
+        <a href="#procedimentos" class="footer-link" style="text-decoration:none;color:#F1E2D2;font-size:11px;letter-spacing:1.8px;font-weight:500">PROCEDIMENTOS</a>
+        <a href="#cursos" class="footer-link" style="text-decoration:none;color:#F1E2D2;font-size:11px;letter-spacing:1.8px;font-weight:500">CURSOS &amp; MENTORIAS</a>
+        <a href="#contato" class="footer-link" style="text-decoration:none;color:#F1E2D2;font-size:11px;letter-spacing:1.8px;font-weight:500">CONTATO</a>
+        <a href="https://instagram.com/amanda.manucci" target="_blank" class="footer-link" style="text-decoration:none;color:#F1E2D2;font-size:11px;letter-spacing:1.8px;font-weight:500">INSTAGRAM</a>
+      </div>
+      <div style="border-top:1px solid rgba(241,226,210,0.18);padding-top:24px;font-size:11.5px;color:rgba(241,226,210,0.5)">© 2026 Amanda Manucci · Todos os direitos reservados</div>
+    </div>
+  </footer>
+
+  <!-- ===== WHATSAPP FLUTUANTE ===== -->
+  <a href="https://wa.me/5516999999999?text=Ol%C3%A1%2C%20Amanda!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" aria-label="Falar no WhatsApp" class="fab-wa" style="position:fixed;bottom:26px;right:26px;z-index:70;width:58px;height:58px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 10px 28px rgba(0,0,0,0.28)">
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="#FFFFFF"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347M12.05 21.785h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"></path></svg>
+  </a>
+
+</div>
+<script>
+(function () {
+  var toggle = document.getElementById('nav-toggle');
+  var links = document.getElementById('nav-links');
+  toggle.addEventListener('click', function () {
+    var isOpen = links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  links.querySelectorAll('a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+  window.addEventListener('resize', function () {
+    if (window.innerWidth > 860) {
+      links.classList.remove('open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+})();
+</script>
+</body>
+</html>
